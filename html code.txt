@@ -1,0 +1,115 @@
+----HTML-----
+*			= huruf/nomer
+<!--*-->		= komen
+<h1>*</h1>		= sampai h6 heading
+<p>*</p>		= paragraf
+<a href="*">*</a>	= tautan
+<img src="*">		= url gambar
+<ul>			= parents tag
+    <li>*</li>		= child tags
+    <li>*</li>
+    <li>*</li>
+</ul>	
+
+<head>
+1. pengkodean character = <meta charset="utf-8">
+2. judul situs		= <title>Progate</title>
+3. tautan file css	= "stylesheet"href="link css">
+</head>
+
+<div class="header">
+    <div class="header-logo">progate</div>
+    <div class="header-list">
+        <ul>
+	-
+	-
+    </div>
+</div>
+<div class="main">
+    <div class="copy-container">
+      -
+      -
+    </div>
+    <div class="contents">
+      <img src="https://..">
+      <p>HTML & CSS</p>
+      -
+    </div>
+    <div class="contact-form">
+      -
+      -
+    </div>
+</div>
+<div class="footer">
+    <div class="footer-logo">Progate</div>
+    <div class="footer-list">
+        <ul>
+         -
+         -
+    </div>
+</div>
+
+<h1>
+   Welcome to<span>Progate</span>
+</h1>
+
+<form>
+   <p>input element</p>
+   <input 			= 1 baris text
+   <p>textarea element</p>
+   <textarea></textarea>	= multi baris text
+</form>
+<input type="Submit" value="kirim">	= tombol submit, ganti nama ke "kirim"
+
+
+------CSS------
+h1 , p{
+    color: #ff0000;
+}
+.span{
+    font-color: #ff4a4a;
+}
+/* * */ 			= komentar css
+.header-list li{		= element li didlm header-list
+    color: #ff0000;
+}
+li{				
+  list-style: none;		= tanpa bullet
+  float: left;			= menyejajarkan horizontal kiri - kanan
+  flot: right;			= menyejajarkan horizontal kanan - kiri
+  padding: 20px;		= menambah ruang ke element (semua sisi) ruangan didalam batas
+  padding-top: 20px;		= sisi atas
+  padding-right: 20px;		= sisi kanan
+  padding-bottom: 20px;		= sisi bawah
+  padding-left: 20px;		= sisi kiri
+  padding: 20px 10px 20px 10px;	= atas kanan bawah kiri
+  padding: 20px 10px; 		= atas+bawah kanan+kiri
+  border: 5px solid red;	= lebar style warna
+  border-bottom: 1px solid #333;= border bawah
+  border-top: 1px solid #333;	= border atas
+  border-left: 1px solid #333;	= border kiri
+  border-right: 1px solid #333;	= border kanan
+  margin: 20px			= Menambah ruangan diluar batas
+  margin: 20px 10px 20px 10px;	= atas kanan bawah kiri
+  margin: 20px 10px; 		= atas+bawah kanan+kiri
+
+
+}
+h1{				= <P> dan <li> juga bisa
+   color: #ff0000;		= menentukan warna
+   font-size: 10px;		= ukuran font
+   font-family: serif;		= jenis font
+   background-color: #ddd	= untuk back color
+   width: 500px			= lebar
+   length: 80px			= tinggi
+
+}
+
+<ul>
+   <li class="selected">HTML</li>	= menentukan <li> khusus
+   <li>Ruby</li>	 
+/*di css*/
+.selected{
+   color: red;
+}
+
