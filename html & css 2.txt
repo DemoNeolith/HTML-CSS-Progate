@@ -1,0 +1,47 @@
+-----HTML------
+<div class="btn blue"><tekan		= memisahkan 2 kelas (kata di spasi)
+
+------CSS-------
+</div>
+div{
+  height:200px
+  background-image: url(top.png);	= img background
+  background-size: cover;		= memperbesar gambar tanpa duplikasi
+  opacity: 0.7				= dimana 0.0 transparan dan 1.0 paling jelas
+  letter-spacing: 2px;			= jarak antar huruf 
+  border-radius: 10px;			= membulatkan sudut element
+  text-align: left/center/right;	= atur text
+  background-color: rgba(84, 190, 238, 0.5);= transparansi pada warna background
+  background-color: rgba(84, 190, 238);	= transparansi semuanya
+  opacity: 0.5;
+  display: block;			= ketingkat block
+  font-weight: bold;			= bold text
+  position: absolute;			= element bertumpang tindih (child
+  position: relative;			= element bertumpang tindih (sudut kiri)(parents)
+  top: 50px;
+  left: 70px;
+  box-shadow; 10px 10px #000		= menambahkan bayangan ke element, horizontal vertikal warna
+  cursor: text;				= jenis2 cursor
+  cursor: pointer;			
+  cursor: default;	
+  position: fixed			= untuk menahan header saat scrol
+  top: 10px;
+  left: 40px;		
+}
+.btn{
+}
+.blue{
+}
+div:hover{				= efek ketika kursor mendekati element
+  background-color:red;
+}
+div{
+  transition: all 1s;			= animasi
+  line-height: 10px;			= tinggi yang ditempati baris &	menengahkan text secara vertikal
+}
+div:active{				= menambahkan efek saat element diklik
+  position: relative;			= element bertumpang tindih (sudut kiri)(parents)
+  top: 50px;
+  left: 70px;			
+  box-shadow:none;			= menghilangkan bayangan saat diklik
+}	
